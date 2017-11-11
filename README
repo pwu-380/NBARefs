@@ -1,0 +1,26 @@
+Various scripts investigating the bias of refs in the NBA
+
+**PointDifferentials.py**
+Does kernal density estimation for free-throw attempts (FTA) for teams in the NBA with the objective to ascertain if point differentials are normally distributed for teams over a season/post-season. Density functions are plotted for home games and away games.
+
+**FTAs.py**
+Calculates the total FTAs per team over a season, for home and away, plots results to examine strength of relation. Also calculates the average FTAs by each team occurring in games officiated by each ref. Box plot to examine distribution of ref averages.
+
+**FTA_Refs_v_Teams.py**
+Produces heatmap of FTAs given to each team by each ref. (Refs ranked by average FTA/game desc and teams ranked by average FTA/game desc).
+
+**PointDifferentialSampler.py**
+Uses a bootstrap sampling technique to estimate the probability of a ref getting a result as extreme as reality by random chance.
+
+**Transform.py**
+Performs 1-hot encoding on refs attributes.
+
+
+##Crawler
+**bballReferenceCleaner.py**
+Cleans the games table from basketball reference (removing sub-headers, superfluous columns, blank cells, etc.)
+
+**bballReferenceCleaner.py**
+basketballCrawlerNew.py
+Scrapes every game page on basketballreference.com for a particular season/post-season, grabbing FTAs from the box score and names of the officiating crew.
+(Reference from andrewgiessel's player stats crawler)
