@@ -5,18 +5,6 @@ import requests
 import re
 from bs4 import BeautifulSoup as bs
 import time
-#import logging
-
-#__all__ = ['getSoupFromURL', 'getCurrentPlayerNamesAndURLS',
-#           'buildPlayerDictionary', 'searchForName',
-#           'savePlayerDictionary', 'loadPlayerDictionary',
-#           'gameLogs']
-
-#BASKETBALL_LOG = 'basketball.log'
-
-#logging.basicConfig(filename=BASKETBALL_LOG,
-#                    level=logging.DEBUG,
-#                    )
 
 URL = 'http://www.basketball-reference.com/boxscores/{0}.html'
 

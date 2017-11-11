@@ -10,7 +10,7 @@ Calculates the total FTAs per team over a season, for home and away, plots resul
 Produces heatmap of FTAs given to each team by each ref. (Refs ranked by average FTA/game desc and teams ranked by average FTA/game desc).
 
 **PointDifferentialSampler.py**
-Uses a bootstrap sampling technique to estimate the probability of a ref getting a result as extreme as reality by random chance.
+Uses a bootstrap sampling technique to estimate the probability of a ref getting a mean point-differential as extreme as reality by random chance. Point differentials are normalized for away games.
 
 **Transform.py**
 Performs 1-hot encoding on refs attributes.
